@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
     "module": "ESNext",
+    "sourceMap": true,
     "target": "ES2021"
   }
 }
