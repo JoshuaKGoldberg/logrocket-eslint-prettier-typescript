@@ -2,5 +2,11 @@
   "author": "Josh Goldberg <npm@joshuakgoldberg.com>",
   "devDependencies": {
     "typescript": "^4.8.4"
-  }
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "type": "module",
+  "version": "0.0.1"
 }
