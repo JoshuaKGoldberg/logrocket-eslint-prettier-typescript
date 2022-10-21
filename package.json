@@ -1,0 +1,6 @@
+{
+  "author": "Josh Goldberg <npm@joshuakgoldberg.com>",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
