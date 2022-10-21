@@ -16,6 +16,8 @@
 	"scripts": {
 		"build": "tsc",
 		"format": "prettier --write .",
+		"lint": "eslint . --max-warnings 0 --report-unused-disable-directives",
+		"lint:fix": "npm run lint -- --fix",
 		"prepare": "husky install"
 	},
 	"type": "module",
