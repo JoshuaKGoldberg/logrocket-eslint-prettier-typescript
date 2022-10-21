@@ -1,13 +1,13 @@
 {
-  "compilerOptions": {
-    "declaration": true,
-    "declarationMap": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "module": "ESNext",
-    "sourceMap": true,
-    "strict": true,
-    "strictFunctionTypes": false,
-    "target": "ES2021"
-  }
+	"compilerOptions": {
+		"declaration": true,
+		"declarationMap": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"module": "ESNext",
+		"sourceMap": true,
+		"strict": true,
+		"strictFunctionTypes": false,
+		"target": "ES2021"
+	}
 }
