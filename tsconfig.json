@@ -6,6 +6,8 @@
     "skipLibCheck": true,
     "module": "ESNext",
     "sourceMap": true,
+    "strict": true,
+    "strictFunctionTypes": false,
     "target": "ES2021"
   }
 }
