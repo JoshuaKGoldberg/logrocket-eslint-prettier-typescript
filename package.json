@@ -1,13 +1,19 @@
 {
 	"author": "Josh Goldberg <npm@joshuakgoldberg.com>",
 	"devDependencies": {
+		"husky": "^8.0.1",
+		"lint-staged": "^13.0.3",
 		"prettier": "2.7.1",
 		"typescript": "^4.8.4"
+	},
+	"lint-staged": {
+		"*": "prettier --ignore-unknown --write"
 	},
 	"main": "src/index.js",
 	"scripts": {
 		"build": "tsc",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"prepare": "husky install"
 	},
 	"type": "module",
 	"version": "0.0.1"
